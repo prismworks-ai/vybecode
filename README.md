@@ -28,3 +28,12 @@ Do not post API keys, tokens, private repository URLs, private logs, screenshots
 
 If a report requires sensitive details, open a minimal public issue first and state that private diagnostics are available for the PrismWorks AI team.
 
+## Legal
+
+- [License](LICENSE)
+- [End User License Agreement](EULA.md)
+- [Terms and Conditions](TERMS.md)
+- [Privacy Policy](PRIVACY.md)
+- [Security Policy](SECURITY.md)
+- [Contribution Policy](CONTRIBUTING.md)
+- [Notices](NOTICE.md)
