@@ -18,6 +18,10 @@ This repository is not a source-code repository. Do not submit proprietary sourc
 
 Your use of VybeCode desktop binaries is governed by the End User License Agreement, these terms, and any applicable release notes.
 
+Personal use of official VybeCode desktop binary releases is totally free and may be unlimited for personal, non-commercial purposes.
+
+Business, commercial, organizational, institutional, government, and enterprise use is prohibited without an appropriate written license from PrismWorks AI. For business or enterprise licensing, contact sales@prismworks.ai.
+
 You are responsible for how you configure and use VybeCode, including connections to model providers, CLI agents, local tools, files, repositories, and third-party services.
 
 ## 3. Accounts, Credentials, and Third-Party Services
@@ -43,6 +47,7 @@ Do not submit secrets, private keys, API keys, access tokens, private customer d
 You may not use VybeCode or this repository to:
 
 - violate applicable law
+- use VybeCode for business, commercial, organizational, institutional, government, or enterprise purposes without an appropriate written license from PrismWorks AI
 - infringe intellectual property or privacy rights
 - bypass authentication, licensing, rate limits, or security controls
 - distribute malware or harmful content
@@ -64,4 +69,3 @@ To the maximum extent permitted by law, PrismWorks AI is not liable for indirect
 ## 9. Conflicts
 
 If these terms conflict with a separately signed written agreement between you and PrismWorks AI, that written agreement controls to the extent of the conflict.
-

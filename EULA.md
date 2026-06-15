@@ -6,7 +6,11 @@ This End User License Agreement governs your installation and use of VybeCode de
 
 ## 1. License Grant
 
-Subject to this agreement, PrismWorks AI grants you a limited, revocable, non-exclusive, non-transferable license to install and use the official VybeCode desktop application for your internal personal or business use.
+Personal use of official VybeCode desktop binary releases is totally free.
+
+Subject to this agreement, PrismWorks AI grants you a limited, revocable, non-exclusive, non-transferable license to download, install, and use the official VybeCode desktop application for unlimited personal, non-commercial use.
+
+Business, commercial, organizational, institutional, government, and enterprise use is prohibited without an appropriate written license from PrismWorks AI. For business or enterprise licensing, contact sales@prismworks.ai.
 
 ## 2. Ownership
 
@@ -16,6 +20,7 @@ VybeCode is proprietary software owned by PrismWorks AI. This agreement does not
 
 You may not:
 
+- use VybeCode for business, commercial, organizational, institutional, government, or enterprise purposes without an appropriate written license from PrismWorks AI
 - copy, redistribute, sell, lease, sublicense, or host VybeCode for third parties
 - reverse engineer, decompile, disassemble, or attempt to derive source code except where applicable law prohibits this restriction
 - remove proprietary notices, trademarks, or attribution
@@ -48,7 +53,8 @@ This license terminates automatically if you violate this agreement. On terminat
 
 ## 10. Contact and Issues
 
+For business or enterprise licensing, contact sales@prismworks.ai.
+
 For release issues, use GitHub Issues in this repository:
 
 https://github.com/prismworks-ai/vybecode/issues/new/choose
-

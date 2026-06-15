@@ -4,6 +4,8 @@ This repository is for VybeCode binary releases and issue reporting only.
 
 VybeCode is proprietary software owned by PrismWorks AI. The application source code is not published here, and this repository does not accept source-code contributions.
 
+Official VybeCode desktop releases are free for unlimited personal, non-commercial use. Business, commercial, organizational, institutional, government, and enterprise use requires an appropriate written license from PrismWorks AI. Contact sales@prismworks.ai for business or enterprise licensing.
+
 ## Accepted Contributions
 
 You may submit:
@@ -34,4 +36,3 @@ Good reports include:
 - expected behavior
 - actual behavior
 - screenshots or logs with secrets removed
-
