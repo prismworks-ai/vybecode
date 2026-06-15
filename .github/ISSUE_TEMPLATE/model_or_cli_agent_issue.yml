@@ -1,0 +1,79 @@
+name: Model or CLI agent issue
+description: Report a problem using hosted models, self-hosted models, or CLI agents in VybeCode.
+title: "[Models/Agents]: "
+labels:
+  - models
+  - agents
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not include provider API keys, tokens, private prompts, private project files, or proprietary logs.
+  - type: input
+    id: version
+    attributes:
+      label: VybeCode version
+      placeholder: Beta 0.77
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - macOS
+        - Windows
+        - Linux
+    validations:
+      required: true
+  - type: checkboxes
+    id: area
+    attributes:
+      label: Area
+      options:
+        - label: OpenRouter
+        - label: Vercel AI Gateway
+        - label: Direct model provider key
+        - label: Self-hosted OpenAI-compatible endpoint
+        - label: Codex CLI
+        - label: Claude Code
+        - label: Antigravity CLI
+        - label: OpenCode
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the model or agent behavior that failed.
+    validations:
+      required: true
+  - type: textarea
+    id: setup
+    attributes:
+      label: Setup details
+      description: Include provider or CLI versions if relevant. Do not include secrets.
+      placeholder: |
+        Provider/CLI:
+        Selected model:
+        Project/workspace context:
+    validations:
+      required: false
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open VybeCode
+        2. Go to Models or Agents
+        3. Select ...
+        4. See ...
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Logs or screenshots
+      description: Attach relevant screenshots or logs with secrets removed.
+      render: shell
+    validations:
+      required: false
+

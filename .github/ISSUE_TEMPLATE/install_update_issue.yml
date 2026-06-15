@@ -1,0 +1,71 @@
+name: Install or update issue
+description: Report a problem installing, launching, or updating VybeCode.
+title: "[Install/Update]: "
+labels:
+  - install
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for installer, updater, app launch, code signing, quarantine, or download problems.
+  - type: input
+    id: version
+    attributes:
+      label: VybeCode version
+      placeholder: Beta 0.77
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - macOS
+        - Windows
+        - Linux
+    validations:
+      required: true
+  - type: input
+    id: os_version
+    attributes:
+      label: OS version
+      placeholder: macOS 15.5, Windows 11 24H2, Ubuntu 24.04
+    validations:
+      required: true
+  - type: dropdown
+    id: problem_area
+    attributes:
+      label: Problem area
+      options:
+        - Download
+        - Install
+        - First launch
+        - Auto-update
+        - Manual update
+        - Code signing or security prompt
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: Issue details
+      description: Describe what failed and any exact error text you saw.
+    validations:
+      required: true
+  - type: textarea
+    id: attempts
+    attributes:
+      label: What have you tried?
+      description: List any reinstall, restart, permissions, security, or update steps already tried.
+    validations:
+      required: false
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Logs or screenshots
+      description: Attach relevant screenshots or logs with secrets removed.
+      render: shell
+    validations:
+      required: false
+

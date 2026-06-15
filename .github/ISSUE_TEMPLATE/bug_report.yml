@@ -1,0 +1,88 @@
+name: Bug report
+description: Report a problem in the VybeCode desktop app.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a VybeCode issue. Do not include API keys, tokens, private project files, or logs containing secrets.
+  - type: input
+    id: version
+    attributes:
+      label: VybeCode version
+      description: Example: Beta 0.77
+      placeholder: Beta 0.77
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - macOS
+        - Windows
+        - Linux
+    validations:
+      required: true
+  - type: input
+    id: os_version
+    attributes:
+      label: OS version
+      placeholder: macOS 15.5, Windows 11 24H2, Ubuntu 24.04
+    validations:
+      required: true
+  - type: dropdown
+    id: install_type
+    attributes:
+      label: Install/update path
+      options:
+        - Fresh install
+        - Updated from an earlier version
+        - Portable/manual install
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      description: Briefly describe the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: List the exact steps needed to reproduce the issue.
+      placeholder: |
+        1. Open VybeCode
+        2. Go to ...
+        3. Click ...
+        4. See ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: What happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or screenshots
+      description: Paste relevant logs or attach screenshots. Remove secrets before submitting.
+      render: shell
+    validations:
+      required: false
+
